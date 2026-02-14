@@ -1,6 +1,6 @@
 // ====== MẬT KHẨU ======
 let input = "";
-const password = "2305"; // ngày kỷ niệm
+const password = "2312"; // ngày kỷ niệm
 
 // ====== BÀN PHÍM ======
 function press(num) {
@@ -102,3 +102,4 @@ function initScratch() {
     ctx.fill();
   }
 }
+
