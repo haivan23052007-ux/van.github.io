@@ -102,4 +102,3 @@ function initScratch() {
     ctx.fill();
   }
 }
-
