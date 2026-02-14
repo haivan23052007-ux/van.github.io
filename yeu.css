@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: radial-gradient(#2b1a3d, #0d061a);
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.lock-screen, .love-screen {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hidden { display: none; }
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 70px);
+  gap: 10px;
+}
+
+.keypad button {
+  height: 60px;
+  border-radius: 12px;
+  border: none;
+  font-size: 20px;
+}
+
+.card {
+  width: 800px;
+  height: 420px;
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  border-radius: 25px;
+  background: rgba(255,255,255,0.08);
+}
+
+.text-area { flex: 1.2; }
+
+.scratch-area {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.scratch-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+canvas {
+  position: absolute;
+  inset: 0;
+  border-radius: 18px;
+}
