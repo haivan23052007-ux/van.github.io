@@ -1,0 +1,199 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#0f172a;
+}
+
+.modal{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.form-container{
+  width:800px;
+  background:#1e293b;
+  border-radius:15px;
+  overflow:hidden;
+  box-shadow:0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* HEADER */
+.form-header{
+  background:#0b2c3d;
+  color:white;
+  padding:15px;
+  text-align:center;
+  font-weight:bold;
+}
+
+/* BODY */
+.form-body{
+  display:flex;
+}
+
+/* LEFT */
+.left{
+  width:50%;
+  padding:20px;
+  color:white;
+}
+
+.left input{
+  width:100%;
+  padding:10px;
+  margin:5px 0;
+  border-radius:8px;
+  border:1px solid #ccc;
+}
+
+.left button{
+  width:100%;
+  padding:12px;
+  background:#22c55e;
+  border:none;
+  color:white;
+  border-radius:8px;
+  margin-top:10px;
+  cursor:pointer;
+}
+
+small{
+  color:#f87171;
+}
+
+/* RIGHT */
+.right{
+  width:50%;
+  background:#e2e8f0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+
+/* PAYMENT */
+.payment img{
+  width:200px;
+  margin:10px 0;
+}
+
+/* SUCCESS */
+.success{
+  text-align:center;
+}
+
+.check{
+  width:60px;
+  height:60px;
+  background:#22c55e;
+  color:white;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:30px;
+  margin:auto;
+}
+
+/* HIDDEN */
+.hidden{
+  display:none;
+}
+.steps{
+  display:flex;
+  justify-content:space-around;
+  background:#0f172a;
+  padding:10px;
+}
+
+.step{
+  color:#94a3b8;
+}
+
+.step.active{
+  color:#22c55e;
+  font-weight:bold;
+}
+.form-group{
+  background:#020617;
+  padding:15px;
+  border-radius:10px;
+  margin-top:10px;
+}
+
+.input-box{
+  margin-bottom:10px;
+}
+
+.input-box label{
+  display:block;
+  margin-bottom:5px;
+  color:#cbd5f5;
+}
+
+.input-box input{
+  width:100%;
+  padding:10px;
+  border-radius:6px;
+  border:1px solid #334155;
+  background:#0f172a;
+  color:white;
+}
+
+.input-box input:focus{
+  border-color:#22c55e;
+  outline:none;
+}
+.form-body{
+  display:flex;
+}
+
+/* LEFT */
+.left{
+  width:50%;
+  padding:20px;
+  background:#1e293b;
+  color:white;
+}
+
+/* RIGHT */
+.right{
+  width:50%;
+  background:#f1f5f9;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+
+/* BOX GIÁ */
+.price-box{
+  margin-top:10px;
+  padding:10px;
+  background:#020617;
+  border-radius:8px;
+}
+
+/* PAYMENT */
+.payment img{
+  width:200px;
+}
+
+/* SUCCESS */
+.success{
+  text-align:center;
+}
+
+.check{
+  width:60px;
+  height:60px;
+  background:#22c55e;
+  border-radius:50%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  font-size:30px;
+}

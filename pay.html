@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Đăng ký sự kiện</title>
+<link rel="stylesheet" href="pay.css">
+</head>
+<body>
+
+<div class="modal">
+
+<div class="form-container">
+<div class="steps">
+  <div class="step active" id="step1" onclick="goStep(1)">1. Nhập thông tin</div>
+<div class="step" id="step2" onclick="goStep(2)">2. Thanh toán</div>
+<div class="step" id="step3" onclick="goStep(3)">3. Hoàn tất</div>
+</div>
+  <!-- HEADER -->
+  <div class="form-header">
+    FORM ĐĂNG KÝ SỰ KIỆN
+  </div>
+
+  <div class="form-body">
+
+    <!-- LEFT -->
+    <div class="left">
+
+      <h2 id="event-title"></h2>
+
+      <div class="step">
+        ✔ Nhập thông tin
+      </div>
+<div class="form-group">
+
+  <h3>Thông tin người đặt</h3>
+
+  <div class="input-box">
+    <label>Họ tên</label>
+    <input id="name" placeholder="Nhập họ tên">
+    <small id="name-error"></small>
+  </div>
+
+  <div class="input-box">
+    <label>Email</label>
+    <input id="email" placeholder="Nhập email">
+    <small id="email-error"></small>
+  </div>
+
+  <div class="input-box">
+    <label>Số điện thoại</label>
+    <input id="phone" placeholder="Nhập số điện thoại">
+    <small id="phone-error"></small>
+  </div>
+
+  <div class="input-box">
+    <label>Số lượng vé</label>
+    <input type="number" id="quantity" value="1" min="1">
+  </div>
+
+</div>
+
+<p>Giá vé: <b id="price"></b></p>
+<p>Tổng tiền: <b id="total"></b></p>
+
+      <button onclick="startPayment()">Xác nhận</button>
+
+    </div>
+
+    <!-- RIGHT -->
+    <div class="right">
+
+      <!-- PAYMENT -->
+      <div id="paymentBox" class="payment hidden">
+        <h3>Quét QR để thanh toán</h3>
+        <img id="qr">
+        <p id="countdown"></p>
+      </div>
+
+      <!-- SUCCESS -->
+      <div id="successBox" class="success hidden">
+        <div class="check">✔</div>
+        <h3>ĐĂNG KÝ THÀNH CÔNG!</h3>
+        <p id="info"></p>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</div>
+
+<script src="pay.js"></script>
+</body>
+</html>

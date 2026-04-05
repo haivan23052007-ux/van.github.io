@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="email" placeholder="Email">
+<button onclick="login()">Login</button>
+
+<script>
+function login(){
+  const email = document.getElementById("email").value;
+
+  localStorage.setItem("user", JSON.stringify({email}));
+
+  window.location.href="pay.html";
+}
+const redirect = localStorage.getItem("redirectAfterLogin");
+
+if(redirect){
+  localStorage.removeItem("redirectAfterLogin");
+  window.location.href = redirect;
+} else {
+  window.location.href = "index.html";
+}
+</script>
+</body>
+</html>
