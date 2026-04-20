@@ -1,0 +1,1727 @@
+{
+  "events": [
+    {
+      "id": "sky-concert",
+      "title": "Sky Concert",
+      "category": "concert",
+      "city": "TP.HCM",
+      "banner": "https://tse1.mm.bing.net/th/id/OIP.V2oIAEIW48x_5CDizbhJBQHaFj?pid=ImgDet&w=474&h=355&rs=1&o=7&rm=3",
+      "summary": "Đêm nhạc bùng nổ với nhiều bản hit và hiệu ứng sân khấu lớn.",
+      "content": "Em khiến anh muốn trở thành Hà Nội boy - Sơn Tùng M-TP trở lại với Sky Hà Nội rồi đây!\nSau hành trình chinh phục hàng triệu trái tim với những bản hit đình đám, Sơn Tùng sẽ chính thức tái xuất tại sân khấu, mang đến nguồn năng lượng bùng nổ cùng những khoảnh khắc ngọt ngào khó quên.\nĐặc biệt, lần trở lại này diễn ra đúng dịp kỷ niệm chặng đường âm nhạc của anh, hứa hẹn biến đêm nhạc thành một hành trình cảm xúc không thể bỏ lỡ.",
+      "venue": "Sân vận động TP.HCM",
+      "seatMapId": "sky-concert-map"
+    },
+    {
+      "id": "gai-home",
+      "title": "Gai Home",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://salt.tkbcdn.com/ts/ds/74/ca/18/173014220d7b30fb44d26955187b13e9.png",
+      "summary": "Concert quy tụ dàn anh tài bước ra từ gameshow âm nhạc nổi bật.",
+      "content": "Đêm diễn quy tụ dàn anh tài bước ra từ gameshow Anh Trai Vượt Ngàn Chông Gai. Khán giả sẽ được tận hưởng một sân khấu âm nhạc chuyên nghiệp, nơi những màn trình diễn được dàn dựng với quy mô lớn và cảm xúc rõ ràng.",
+      "venue": "Sân vận động Mỹ Đình",
+      "seatMapId": "stadium-a"
+    },
+    {
+      "id": "slay-ha-noi",
+      "title": "[Hà Nội] Slay",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://salt.tkbcdn.com/ts/ds/0d/f6/60/d6722de4650d93d531c088ae38ee8ce1.jpg",
+      "summary": "Concert theo mô hình arena với nhiều hạng vé rõ ràng.",
+      "content": "Sự kiện dành cho khán giả yêu không khí show quốc tế. Sân khấu được thiết kế theo kiểu arena, phù hợp cho nhiều hạng ghế từ VVIP đến khu đứng.",
+      "venue": "Số 8 Nguyễn Công Hoan, Hà Nội",
+      "seatMapId": "slay-overview-map"
+    },
+    {
+      "id": "thang-4",
+      "title": "Tháng 4",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://salt.tkbcdn.com/ts/ds/5f/52/93/a8e3e31b0657d3203e006084a572ae26.jpg",
+      "summary": "Đêm nhạc trữ tình, không gian gần và giàu cảm xúc.",
+      "content": "Tôi ổn. Nghe quen không? 90% mọi người nói câu này đều đang nói dối.\nTHÁNG 4 - LỜI NÓI DỐI CỦA EM là một đêm nhạc nhiều cảm xúc với ca sĩ, band nhạc và tứ tấu trong không gian nhà hát.",
+      "venue": "Nhà hát Ca Múa Nhạc Thăng Long",
+      "seatMapId": "thang-4-jay-map"
+    },
+    {
+      "id": "giai-boi-2026",
+      "title": "Giải bơi",
+      "category": "sport",
+      "city": "TP.HCM",
+      "banner": "https://pix.actiup.net/2026/03/13/1773391800670286/banner-ba%CC%81n-ve%CC%81.jpg",
+      "summary": "Giải đấu bơi phong trào với khu khán đài chia 3 mức vé.",
+      "content": "Giải bơi năm 2026 quy tụ các vận động viên phong trào và bán chuyên. Khán giả có thể chọn khán đài gần hồ thi đấu hoặc khu phổ thông.",
+      "venue": "Cung thể thao dưới nước",
+      "seatMapId": "aquatic-d"
+    },
+    {
+      "id": "giai-bong-da-sinh-vien",
+      "title": "Giải bóng đá sinh viên",
+      "category": "sport",
+      "city": "Hà Nội",
+      "banner": "https://salt.tkbcdn.com/ts/ds/ec/9b/e4/4a28525adb60c8e14f1f10131f0d5dcb.png",
+      "summary": "Giải đấu sinh viên với khu vực cổ động và khán đài thường.",
+      "content": "Giải bóng đá sinh viên mang đến không khí thi đấu kịch tính, phù hợp cho cả sinh viên và khán giả phổ thông.",
+      "venue": "Sân vận động Đại học Quốc gia",
+      "seatMapId": "stadium-a"
+    },
+    {
+      "id": "game-show-2026",
+      "title": "Game Show",
+      "category": "game",
+      "city": "Hà Nội",
+      "banner": "https://images.unsplash.com/photo-1522778526097-ce0a22ceb253",
+      "summary": "Show tương tác trực tiếp với khu vực ngồi gần sân khấu và khu tiêu chuẩn.",
+      "content": "Game Show 2026 là sự kiện giải trí tương tác, kết hợp mini game, phần thưởng và hoạt động cộng đồng cho người tham gia.",
+      "venue": "Trung tâm hội nghị Hà Nội",
+      "seatMapId": "hall-e"
+    },
+    {
+      "id": "le-hoi-am-thuc-ha-noi-2026",
+      "title": "Lễ hội Văn hóa & Ẩm thực Hà Nội 2026",
+      "category": "special",
+      "city": "Hà Nội",
+      "banner": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+      "summary": "Lễ hội văn hóa với nhiều khu hoạt động và vé vào cổng miễn phí.",
+      "content": "Tên sự kiện: Lễ hội Văn hóa & Ẩm thực Hà Nội 2026\n\nHoạt động chính:\n- Múa rối nước\n- Quan họ\n- Ẩm thực 50 gian hàng\n- Workshop thủ công",
+      "venue": "Công viên Hòa Bình",
+      "seatMapId": "festival-f"
+    },
+    {
+      "id": 5,
+      "title": "The Eras Tour",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/158648e4-fb58-4b77-8053-e91ff4e194e4/dfs72qc-0f7c939b-6e66-423c-885d-48b85927909a.jpg/v1/fill/w_800,h_999,q_70,strp/taylor_swift___the_eras_tour_by_georgiig_dfs72qc-pre.jpg",
+      "summary": "Concert quốc tế với set diễn quy mô lớn.",
+      "content": "The Eras Tour là đêm diễn lấy cảm hứng từ nhiều chặng âm nhạc nổi bật, phù hợp cho khán giả yêu pop quốc tế và không gian sân vận động.",
+      "venue": "Sân vận động Hà Nội",
+      "seatMapId": "stadium-a"
+    },
+    {
+      "id": 6,
+      "title": "Rap Việt",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6a/fb/7a/6afb7ad0-504b-3010-47d2-b3590a27e894/197338696262.jpg/1200x1200bf-60.jpg",
+      "summary": "Show rap với sân khấu hiện đại và không khí thi đấu.",
+      "content": "Rap Việt live stage mang màu sắc thi đấu, biểu diễn và tương tác trực tiếp cùng khán giả.",
+      "venue": "Cung điền kinh trong nhà Hà Nội",
+      "seatMapId": "hall-e"
+    },
+    {
+      "id": 7,
+      "title": "BlackPink World Tour",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://mir-s3-cdn-cf.behance.net/project_modules/hd_webp/e04d8c201654605.66e9b205b8a31.jpg",
+      "summary": "Concert quốc tế với quy mô sân vận động.",
+      "content": "BlackPink World Tour phiên bản sân vận động với nhiều khu khán đài và khu đứng phía trước sân khấu.",
+      "venue": "Sân vận động Hà Nội",
+      "seatMapId": "slay-overview-map"
+    },
+    {
+      "id": 8,
+      "title": "BlackPink World Tour",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://i1.sndcdn.com/artworks-jCbq1i1qi54F-0-t500x500.jpg",
+      "summary": "Concert quốc tế phiên bản arena.",
+      "content": "BlackPink World Tour bản arena với nhiều hạng vé từ khán đài đến khu đứng trung tâm.",
+      "venue": "Nhà thi đấu Hà Nội",
+      "seatMapId": "slay-overview-map"
+    },
+    {
+      "id": 9,
+      "title": "BlackPink World Tour",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://scontent.fhan20-1.fna.fbcdn.net/v/t39.30808-6/661092796_1518970896491612_7200834327582809318_n.jpg",
+      "summary": "Concert Việt Nam với không khí bùng nổ.",
+      "content": "Đêm diễn dành cho khán giả yêu K-pop với nhiều khu vực VIP, đứng và khán đài.",
+      "venue": "Sân vận động Quốc gia Mỹ Đình",
+      "seatMapId": "gai-home-born-pink-map"
+    },
+    {
+      "id": 10,
+      "title": "BlackPink World Tour",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4",
+      "summary": "Concert do MasterD tổ chức với sân khấu lớn.",
+      "content": "Sự kiện concert quy mô lớn với hệ thống âm thanh ánh sáng hiện đại và nhiều hạng vé.",
+      "venue": "Sân vận động Hà Nội",
+      "seatMapId": "stadium-a"
+    },
+    {
+      "id": 11,
+      "title": "BlackPink World Tour",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://scontent.fhan2-5.fna.fbcdn.net/v/t39.30808-6/666978277_122244104192059729_6972498749588206069_n.jpg",
+      "summary": "Concert với khách mời Justin.",
+      "content": "Đêm diễn kết hợp nhiều nghệ sĩ quốc tế và khách mời đặc biệt, phù hợp khán giả trẻ.",
+      "venue": "Sân vận động Hà Nội",
+      "seatMapId": "stadium-a"
+    },
+    {
+      "id": 12,
+      "title": "World Tour",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://media.stubhubstatic.com/stubhub-v2-catalog/d_vgg-defaultLogo.jpg/q_auto:low,f_auto,c_fill,g_auto,w_1200,h_736,dpr_auto/categories/33253/6563719",
+      "summary": "Concert quốc tế lưu diễn.",
+      "content": "World Tour là show lưu diễn quốc tế với sân khấu biểu diễn quy mô lớn và lịch diễn nhiều điểm.",
+      "venue": "Nhà thi đấu Hà Nội",
+      "seatMapId": "hall-e"
+    },
+    {
+      "id": 13,
+      "title": "BlackPink World Tour",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://scontent.fhan2-4.fna.fbcdn.net/v/t39.30808-6/627184313_3404856899664393_2678571151688821764_n.jpg",
+      "summary": "Concert R&B với màu sắc mạnh.",
+      "content": "Show mang màu sắc R&B hiện đại, thiên về trải nghiệm sân khấu và visual nổi bật.",
+      "venue": "Sân vận động Hà Nội",
+      "seatMapId": "stadium-a"
+    },
+    {
+      "id": 14,
+      "title": "BlackPink World Tour",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://m.economictimes.com/thumb/msid-101222033,width-1200,height-1200,resizemode-4,imgsize-166616/the-data-shows-that-searches-for-accommodations-have-seen-a-staggering-uptick-of-556-per-cent-from-indian-travellers-.jpg",
+      "summary": "Concert quốc tế với lượng fan đông.",
+      "content": "Show diễn quốc tế với sức chứa lớn, phù hợp cho mô hình bán vé nhiều hạng khu vực.",
+      "venue": "Sân vận động Hà Nội",
+      "seatMapId": "stadium-a"
+    },
+    {
+      "id": 15,
+      "title": "Miley Cyrus Live Concert",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://th.bing.com/th/id/R.8f5ad5672e5f6b9ef9c8de073293c5d0?rik=dF1HJiX4oEF7dg&riu=http%3A%2F%2Fwww.impawards.com%2F2008%2Fposters%2Fhannah_montana_miley_cyrus_best_of_both_worlds.jpg&ehk=Ouw%2BuKGGWaqjMtDHVwwDkd2HtlwLOGl%2BFtJDTmxrBsU%3D&risl=&pid=ImgRaw&r=0",
+      "summary": "Concert quốc tế với phong cách pop-rock.",
+      "content": "Miley Cyrus live concert mang năng lượng sân khấu mạnh và set diễn thiên về performance.",
+      "venue": "Sân vận động Hà Nội",
+      "seatMapId": "stadium-a"
+    },
+    {
+      "id": 16,
+      "title": "G-Dragon Japan Tour",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://www.cinemacafe.net/imgs/thumb_h1/753395.jpg",
+      "summary": "Concert quốc tế phong cách thời trang và trình diễn.",
+      "content": "G-Dragon Japan Tour là show mang tính trình diễn cao, kết hợp visual và hiệu ứng sân khấu.",
+      "venue": "Nhà thi đấu Hà Nội",
+      "seatMapId": "hall-e"
+    },
+    {
+      "id": 17,
+      "title": "Maroon 5 World Tour",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://www.places-concert.com/images/visuels/events_maroon_5_chateau_de_chambord_chambord_1124050448_large_050449.webp",
+      "summary": "Concert quốc tế với ban nhạc pop-rock.",
+      "content": "Maroon 5 World Tour mang thiên hướng band live, phù hợp bố cục sân vận động hoặc arena.",
+      "venue": "Sân vận động Hà Nội",
+      "seatMapId": "stadium-a"
+    },
+    {
+      "id": 18,
+      "title": "BlackPink World Tour",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://i1.sndcdn.com/artworks-jCbq1i1qi54F-0-t500x500.jpg",
+      "summary": "Concert quốc tế.",
+      "content": "Đêm diễn BlackPink World Tour với cấu trúc vé nhiều khu tiêu chuẩn và VIP.",
+      "venue": "Sân vận động Hà Nội",
+      "seatMapId": "slay-overview-map"
+    },
+    {
+      "id": 19,
+      "title": "BlackPink World Tour",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://i1.sndcdn.com/artworks-jCbq1i1qi54F-0-t500x500.jpg",
+      "summary": "Concert quốc tế.",
+      "content": "Đêm diễn BlackPink World Tour với sân khấu và hiệu ứng hình ảnh lớn.",
+      "venue": "Sân vận động Hà Nội",
+      "seatMapId": "slay-overview-map"
+    },
+    {
+      "id": 20,
+      "title": "BlackPink World Tour",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://i1.sndcdn.com/artworks-jCbq1i1qi54F-0-t500x500.jpg",
+      "summary": "Concert quốc tế.",
+      "content": "Show diễn quốc tế với nhiều hạng vé và khu vực đứng sát sân khấu.",
+      "venue": "Sân vận động Hà Nội",
+      "seatMapId": "slay-overview-map"
+    },
+    {
+      "id": 21,
+      "title": "BlackPink World Tour",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://i1.sndcdn.com/artworks-jCbq1i1qi54F-0-t500x500.jpg",
+      "summary": "Concert quốc tế.",
+      "content": "Đêm diễn quốc tế với trải nghiệm sân khấu trung tâm và khán đài bao quanh.",
+      "venue": "Sân vận động Hà Nội",
+      "seatMapId": "slay-overview-map"
+    },
+    {
+      "id": 22,
+      "title": "BlackPink World Tour",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://i1.sndcdn.com/artworks-jCbq1i1qi54F-0-t500x500.jpg",
+      "summary": "Concert quốc tế.",
+      "content": "Bản diễn BlackPink World Tour với mô hình vé nhiều tầng và khán đài vòng cung.",
+      "venue": "Sân vận động Hà Nội",
+      "seatMapId": "slay-overview-map"
+    },
+    {
+      "id": 23,
+      "title": "BlackPink World Tour",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://i1.sndcdn.com/artworks-jCbq1i1qi54F-0-t500x500.jpg",
+      "summary": "Concert quốc tế.",
+      "content": "Đêm diễn với cấu trúc khu đứng, VIP và khán đài tiêu chuẩn.",
+      "venue": "Sân vận động Hà Nội",
+      "seatMapId": "slay-overview-map"
+    },
+    {
+      "id": 24,
+      "title": "BlackPink World Tour",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://i1.sndcdn.com/artworks-jCbq1i1qi54F-0-t500x500.jpg",
+      "summary": "Concert quốc tế.",
+      "content": "BlackPink World Tour với bố cục sân vận động và nhiều hạng vé khác nhau.",
+      "venue": "Sân vận động Hà Nội",
+      "seatMapId": "slay-overview-map"
+    },
+    {
+      "id": 25,
+      "title": "BlackPink World Tour",
+      "category": "concert",
+      "city": "Hà Nội",
+      "banner": "https://i1.sndcdn.com/artworks-jCbq1i1qi54F-0-t500x500.jpg",
+      "summary": "Concert quốc tế.",
+      "content": "Đêm diễn quốc tế với mô hình bán vé theo khu sân vận động.",
+      "venue": "Sân vận động Hà Nội",
+      "seatMapId": "slay-overview-map"
+    },
+    {
+      "id": 26,
+      "title": "Giải bơi",
+      "category": "sport",
+      "city": "TP.HCM",
+      "banner": "https://pix.actiup.net/2026/03/13/1773391800670286/banner-ba%CC%81n-ve%CC%81.jpg",
+      "summary": "Giải bơi.",
+      "content": "Giải bơi với các khu khán đài theo nhiều mức giá.",
+      "venue": "TP.HCM",
+      "seatMapId": "aquatic-d"
+    },
+    {
+      "id": 27,
+      "title": "Giải bóng đá sinh viên",
+      "category": "sport",
+      "city": "Hà Nội",
+      "banner": "https://salt.tkbcdn.com/ts/ds/ec/9b/e4/4a28525adb60c8e14f1f10131f0d5dcb.png",
+      "summary": "Thi đấu kịch tính.",
+      "content": "Giải bóng đá sinh viên với không khí cổ động sôi động.",
+      "venue": "Hà Nội",
+      "seatMapId": "stadium-a"
+      
+    },
+    {
+      "id": 28,
+      "title": "Giải bóng đá sinh viên",
+      "category": "sport",
+      "city": "Hà Nội",
+      "banner": "https://images.unsplash.com/photo-1522778526097-ce0a22ceb253",
+      "summary": "Thi đấu kịch tính.",
+      "content": "Giải bóng đá sinh viên với khán đài mở và khu vực cổ động.",
+      "venue": "Hà Nội",
+      "seatMapId": "stadium-a"
+    },
+    {
+      "id": 29,
+      "title": "Game Show",
+      "category": "game",
+      "city": "Hà Nội",
+      "banner": "https://images.unsplash.com/photo-1522778526097-ce0a22ceb253",
+      "summary": "Thi đấu kịch tính.",
+      "content": "Game show tương tác trực tiếp với nhiều khu ghế tiêu chuẩn.",
+      "venue": "Hà Nội",
+      "seatMapId": "hall-e"
+    },
+    {
+      "id": 30,
+      "title": "Valentine",
+      "category": "special",
+      "city": "Hà Nội",
+      "banner": "https://images.unsplash.com/photo-1522778526097-ce0a22ceb253",
+      "summary": "Sự kiện đặc biệt.",
+      "content": "Sự kiện Valentine với không gian trải nghiệm và khu vào cổng đơn giản.",
+      "venue": "Hà Nội",
+      "seatMapId": "festival-f"
+    }
+  ],
+  "schedules": [
+    {
+      "id": "sky-concert-hcm-2026-05-10",
+      "eventId": "sky-concert",
+      "date": "2026-05-10",
+      "time": "19:00 - 23:00",
+      "location": "TP.HCM",
+      "zonePrices": {
+        "RED": 500000,
+        "YELLOW": 300000,
+        "GREEN": 200000
+      }
+    },
+    {
+      "id": "sky-concert-hp-2026-05-18",
+      "eventId": "sky-concert",
+      "date": "2026-05-18",
+      "time": "19:00 - 23:00",
+      "location": "Hải Phòng",
+      "zonePrices": {
+        "RED": 550000,
+        "YELLOW": 350000,
+        "GREEN": 250000
+      }
+    },
+    {
+      "id": "sky-concert-hn-2026-05-31",
+      "eventId": "sky-concert",
+      "date": "2026-05-31",
+      "time": "20:00 - 23:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "RED": 700000,
+        "YELLOW": 450000,
+        "GREEN": 300000
+      }
+    },
+    {
+      "id": "gai-home-2026-05-15",
+      "eventId": "gai-home",
+      "date": "2026-05-15",
+      "time": "19:00 - 23:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "BORNPINK": 8800000,
+        "VIP": 6800000,
+        "SPECIALA": 5800000,
+        "SPECIALB": 4800000,
+        "GA": 3800000,
+        "BALCONY_GREEN": 3300000,
+        "BALCONY_ORANGE": 2800000,
+        "BALCONY_PINK": 2300000
+      }
+    },
+    {
+      "id": "slay-2026-05-18",
+      "eventId": "slay-ha-noi",
+      "date": "2026-05-18",
+      "time": "19:30 - 22:30",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "FANZONE": 2500000,
+        "SVIP": 5000000,
+        "VIP": 4000000,
+        "GA1": 1500000,
+        "GA2": 1000000,
+        "GA3": 700000,
+        "CAT1": 1500000,
+        "CAT2": 1200000,
+        "SKY1": 12000000,
+        "SKY2": 8000000
+      }
+    },
+    {
+      "id": "slay-2026-05-19",
+      "eventId": "slay-ha-noi",
+      "date": "2026-05-19",
+      "time": "19:30 - 22:30",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "FANZONE": 2700000,
+        "SVIP": 5500000,
+        "VIP": 4300000,
+        "GA1": 1600000,
+        "GA2": 1100000,
+        "GA3": 800000,
+        "CAT1": 1600000,
+        "CAT2": 1300000,
+        "SKY1": 12500000,
+        "SKY2": 8500000
+      }
+    },
+    {
+      "id": "thang-4-2026-04-17",
+      "eventId": "thang-4",
+      "date": "2026-04-17",
+      "time": "20:00 - 22:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "CAT1": 388000,
+        "CAT2": 348000,
+        "CAT3": 308000,
+        "CAT4": 268000,
+        "CAT5": 218000,
+        "GACENTER": 308000,
+        "PA_SIDE": 388000,
+        "PA_CENTER": 388000,
+        "PB_SIDE": 348000,
+        "PB_CENTER": 348000,
+        "PC_SIDE": 308000
+      }
+    },
+    {
+      "id": "giai-boi-2026-05-20",
+      "eventId": "giai-boi-2026",
+      "date": "2026-05-20",
+      "time": "08:00 - 17:00",
+      "location": "TP.HCM",
+      "zonePrices": {
+        "FANZONE": 2500000,
+        "SVIP": 5000000,
+        "VIP": 4000000,
+        "GA1": 1500000,
+        "GA2": 1000000,
+        "GA3": 700000,
+        "CAT1": 1500000,
+        "CAT2": 1200000,
+        "SKY1": 12000000,
+        "SKY2": 8000000
+      }
+    },
+    {
+      "id": "giai-bong-da-2026-05-25",
+      "eventId": "giai-bong-da-sinh-vien",
+      "date": "2026-05-25",
+      "time": "15:00 - 21:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "RED": 150000,
+        "YELLOW": 100000,
+        "GREEN": 50000
+      }
+    },
+    {
+      "id": "game-show-2026-05-25",
+      "eventId": "game-show-2026",
+      "date": "2026-05-25",
+      "time": "18:00 - 21:00",
+      "location": "Hà Nội",
+     "zonePrices": {
+        "FANZONE": 2500000,
+        "SVIP": 5000000,
+        "VIP": 4000000,
+        "GA1": 1500000,
+        "GA2": 1000000,
+        "GA3": 700000,
+        "CAT1": 1500000,
+        "CAT2": 1200000,
+        "SKY1": 12000000,
+        "SKY2": 8000000
+      }
+    },
+    {
+      "id": "festival-2026-04-20",
+      "eventId": "le-hoi-am-thuc-ha-noi-2026",
+      "date": "2026-04-20",
+      "time": "09:00 - 22:00",
+      "location": "Công viên Hòa Bình",
+      "zonePrices": {
+        "ENTRY": 0
+      }
+    },
+    {
+      "id": "festival-2026-04-21",
+      "eventId": "le-hoi-am-thuc-ha-noi-2026",
+      "date": "2026-04-21",
+      "time": "09:00 - 22:00",
+      "location": "Công viên Hòa Bình",
+      "zonePrices": {
+        "ENTRY": 0
+      }
+    },
+    {
+      "id": "festival-2026-04-22",
+      "eventId": "le-hoi-am-thuc-ha-noi-2026",
+      "date": "2026-04-22",
+      "time": "09:00 - 22:00",
+      "location": "Công viên Hòa Bình",
+      "zonePrices": {
+        "ENTRY": 0
+      }
+    },
+    {
+      "id": 5001,
+      "eventId": 5,
+      "date": "2026-05-15",
+      "time": "19:00 - 23:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "RED": 1200000,
+        "YELLOW": 900000,
+        "GREEN": 700000
+      }
+    },
+    {
+      "id": 6001,
+      "eventId": 6,
+      "date": "2026-05-15",
+      "time": "19:00 - 23:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "FRONT": 1200000,
+        "CENTER": 900000,
+        "STANDARD": 700000
+      }
+    },
+    {
+      "id": 7001,
+      "eventId": 7,
+      "date": "2026-05-15",
+      "time": "19:00 - 23:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "FANZONE": 2500000,
+        "SVIP": 5000000,
+        "VIP": 4000000,
+        "GA1": 1500000,
+        "GA2": 1000000,
+        "GA3": 700000,
+        "CAT1": 1500000,
+        "CAT2": 1200000,
+        "SKY1": 12000000,
+        "SKY2": 8000000
+      }
+    },
+    {
+      "id": 8001,
+      "eventId": 8,
+      "date": "2026-05-15",
+      "time": "19:00 - 23:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "FANZONE": 2500000,
+        "SVIP": 5000000,
+        "VIP": 4000000,
+        "GA1": 1500000,
+        "GA2": 1000000,
+        "GA3": 700000,
+        "CAT1": 1500000,
+        "CAT2": 1200000,
+        "SKY1": 12000000,
+        "SKY2": 8000000
+      }
+    },
+    {
+      "id": 9001,
+      "eventId": 9,
+      "date": "2026-05-15",
+      "time": "19:00 - 23:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "BORNPINK": 8800000,
+        "VIP": 6800000,
+        "SPECIALA": 5800000,
+        "SPECIALB": 4800000,
+        "GA": 3800000,
+        "BALCONY_GREEN": 3300000,
+        "BALCONY_ORANGE": 2800000,
+        "BALCONY_PINK": 2300000
+      }
+    },
+    {
+      "id": 10001,
+      "eventId": 10,
+      "date": "2026-05-15",
+      "time": "19:00 - 23:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "RED": 1200000,
+        "YELLOW": 900000,
+        "GREEN": 700000
+      }
+    },
+    {
+      "id": 11001,
+      "eventId": 11,
+      "date": "2026-05-15",
+      "time": "19:00 - 23:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "RED": 1200000,
+        "YELLOW": 900000,
+        "GREEN": 700000
+      }
+    },
+    {
+      "id": 12001,
+      "eventId": 12,
+      "date": "2026-05-15",
+      "time": "19:00 - 23:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "FRONT": 1200000,
+        "CENTER": 900000,
+        "STANDARD": 700000
+      }
+    },
+    {
+      "id": 13001,
+      "eventId": 13,
+      "date": "2026-05-15",
+      "time": "19:00 - 23:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "RED": 1200000,
+        "YELLOW": 900000,
+        "GREEN": 700000
+      }
+    },
+    {
+      "id": 14001,
+      "eventId": 14,
+      "date": "2026-05-15",
+      "time": "19:00 - 23:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "RED": 1200000,
+        "YELLOW": 900000,
+        "GREEN": 700000
+      }
+    },
+    {
+      "id": 15001,
+      "eventId": 15,
+      "date": "2026-05-15",
+      "time": "19:00 - 23:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "RED": 1200000,
+        "YELLOW": 900000,
+        "GREEN": 700000
+      }
+    },
+    {
+      "id": 16001,
+      "eventId": 16,
+      "date": "2026-05-15",
+      "time": "19:00 - 23:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "FRONT": 1200000,
+        "CENTER": 900000,
+        "STANDARD": 700000
+      }
+    },
+    {
+      "id": 17001,
+      "eventId": 17,
+      "date": "2026-05-15",
+      "time": "19:00 - 23:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "RED": 1200000,
+        "YELLOW": 900000,
+        "GREEN": 700000
+      }
+    },
+    {
+      "id": 18001,
+      "eventId": 18,
+      "date": "2026-05-15",
+      "time": "19:00 - 23:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "FANZONE": 2500000,
+        "SVIP": 5000000,
+        "VIP": 4000000,
+        "GA1": 1500000,
+        "GA2": 1000000,
+        "GA3": 700000,
+        "CAT1": 1500000,
+        "CAT2": 1200000,
+        "SKY1": 12000000,
+        "SKY2": 8000000
+      }
+    },
+    {
+      "id": 19001,
+      "eventId": 19,
+      "date": "2026-05-15",
+      "time": "19:00 - 23:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "FANZONE": 2500000,
+        "SVIP": 5000000,
+        "VIP": 4000000,
+        "GA1": 1500000,
+        "GA2": 1000000,
+        "GA3": 700000,
+        "CAT1": 1500000,
+        "CAT2": 1200000,
+        "SKY1": 12000000,
+        "SKY2": 8000000
+      }
+    },
+    {
+      "id": 20001,
+      "eventId": 20,
+      "date": "2026-05-15",
+      "time": "19:00 - 23:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "FANZONE": 2500000,
+        "SVIP": 5000000,
+        "VIP": 4000000,
+        "GA1": 1500000,
+        "GA2": 1000000,
+        "GA3": 700000,
+        "CAT1": 1500000,
+        "CAT2": 1200000,
+        "SKY1": 12000000,
+        "SKY2": 8000000
+      }
+    },
+    {
+      "id": 21001,
+      "eventId": 21,
+      "date": "2026-05-15",
+      "time": "19:00 - 23:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "FANZONE": 2500000,
+        "SVIP": 5000000,
+        "VIP": 4000000,
+        "GA1": 1500000,
+        "GA2": 1000000,
+        "GA3": 700000,
+        "CAT1": 1500000,
+        "CAT2": 1200000,
+        "SKY1": 12000000,
+        "SKY2": 8000000
+      }
+    },
+    {
+      "id": 22001,
+      "eventId": 22,
+      "date": "2026-05-15",
+      "time": "19:00 - 23:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "FANZONE": 2500000,
+        "SVIP": 5000000,
+        "VIP": 4000000,
+        "GA1": 1500000,
+        "GA2": 1000000,
+        "GA3": 700000,
+        "CAT1": 1500000,
+        "CAT2": 1200000,
+        "SKY1": 12000000,
+        "SKY2": 8000000
+      }
+    },
+    {
+      "id": 23001,
+      "eventId": 23,
+      "date": "2026-05-15",
+      "time": "19:00 - 23:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "FANZONE": 2500000,
+        "SVIP": 5000000,
+        "VIP": 4000000,
+        "GA1": 1500000,
+        "GA2": 1000000,
+        "GA3": 700000,
+        "CAT1": 1500000,
+        "CAT2": 1200000,
+        "SKY1": 12000000,
+        "SKY2": 8000000
+      }
+    },
+    {
+      "id": 24001,
+      "eventId": 24,
+      "date": "2026-05-15",
+      "time": "19:00 - 23:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "FANZONE": 2500000,
+        "SVIP": 5000000,
+        "VIP": 4000000,
+        "GA1": 1500000,
+        "GA2": 1000000,
+        "GA3": 700000,
+        "CAT1": 1500000,
+        "CAT2": 1200000,
+        "SKY1": 12000000,
+        "SKY2": 8000000
+      }
+    },
+    {
+      "id": 25001,
+      "eventId": 25,
+      "date": "2026-05-15",
+      "time": "19:00 - 23:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "FANZONE": 2500000,
+        "SVIP": 5000000,
+        "VIP": 4000000,
+        "GA1": 1500000,
+        "GA2": 1000000,
+        "GA3": 700000,
+        "CAT1": 1500000,
+        "CAT2": 1200000,
+        "SKY1": 12000000,
+        "SKY2": 8000000
+      }
+    },
+    {
+      "id": 26001,
+      "eventId": 26,
+      "date": "2026-05-20",
+      "time": "08:00 - 17:00",
+      "location": "TP.HCM",
+      "zonePrices": {
+        "A1": 300000,
+        "A2": 200000,
+        "A3": 100000
+      }
+    },
+    {
+      "id": 27001,
+      "eventId": 27,
+      "date": "2026-05-25",
+      "time": "15:00 - 21:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "RED": 150000,
+        "YELLOW": 100000,
+        "GREEN": 50000
+      }
+    },
+    {
+      "id": 28001,
+      "eventId": 28,
+      "date": "2026-05-25",
+      "time": "15:00 - 21:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "RED": 150000,
+        "YELLOW": 100000,
+        "GREEN": 50000
+      }
+    },
+    {
+      "id": 29001,
+      "eventId": 29,
+      "date": "2026-05-25",
+      "time": "18:00 - 21:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "FRONT": 350000,
+        "CENTER": 250000,
+        "STANDARD": 150000
+      }
+    },
+    {
+      "id": 30001,
+      "eventId": 30,
+      "date": "2026-05-25",
+      "time": "18:00 - 22:00",
+      "location": "Hà Nội",
+      "zonePrices": {
+        "ENTRY": 150000
+      }
+    }
+  ],
+  "seatMaps": [
+    {
+      "id": "thang-4-jay-map",
+      "type": "custom-zones",
+      "canvas": {
+        "width": 1000,
+        "height": 760
+      },
+      "stageLabel": "STAGE / 舞台",
+      "sections": [
+        {
+          "id": "THANG4-PA1",
+          "label": "PA1",
+          "priceKey": "PA_SIDE",
+          "shape": "zone",
+          "className": "thang4-pa-side",
+          "x": 172,
+          "y": 90,
+          "width": 48,
+          "height": 74
+        },
+        {
+          "id": "THANG4-PA2",
+          "label": "PA2",
+          "priceKey": "PA_SIDE",
+          "shape": "zone",
+          "className": "thang4-pa-side",
+          "x": 228,
+          "y": 90,
+          "width": 48,
+          "height": 74
+        },
+        {
+          "id": "THANG4-PA3",
+          "label": "PA3",
+          "priceKey": "PA_CENTER",
+          "shape": "zone",
+          "className": "thang4-pa-center",
+          "x": 292,
+          "y": 90,
+          "width": 64,
+          "height": 74
+        },
+        {
+          "id": "THANG4-PA4",
+          "label": "PA4",
+          "priceKey": "PA_CENTER",
+          "shape": "zone",
+          "className": "thang4-pa-center",
+          "x": 364,
+          "y": 90,
+          "width": 64,
+          "height": 74
+        },
+        {
+          "id": "THANG4-PA5",
+          "label": "PA5",
+          "priceKey": "PA_CENTER",
+          "shape": "zone",
+          "className": "thang4-pa-center",
+          "x": 436,
+          "y": 90,
+          "width": 64,
+          "height": 74
+        },
+        {
+          "id": "THANG4-PA6",
+          "label": "PA6",
+          "priceKey": "PA_CENTER",
+          "shape": "zone",
+          "className": "thang4-pa-center",
+          "x": 508,
+          "y": 90,
+          "width": 64,
+          "height": 74
+        },
+        {
+          "id": "THANG4-PA7",
+          "label": "PA7",
+          "priceKey": "PA_SIDE",
+          "shape": "zone",
+          "className": "thang4-pa-side",
+          "x": 588,
+          "y": 90,
+          "width": 48,
+          "height": 74
+        },
+        {
+          "id": "THANG4-PA8",
+          "label": "PA8",
+          "priceKey": "PA_SIDE",
+          "shape": "zone",
+          "className": "thang4-pa-side",
+          "x": 644,
+          "y": 90,
+          "width": 48,
+          "height": 74
+        },
+        {
+          "id": "THANG4-PB1",
+          "label": "PB1",
+          "priceKey": "PB_SIDE",
+          "shape": "zone",
+          "className": "thang4-pb-side",
+          "x": 172,
+          "y": 182,
+          "width": 48,
+          "height": 92
+        },
+        {
+          "id": "THANG4-PB2",
+          "label": "PB2",
+          "priceKey": "PB_SIDE",
+          "shape": "zone",
+          "className": "thang4-pb-side",
+          "x": 228,
+          "y": 182,
+          "width": 48,
+          "height": 92
+        },
+        {
+          "id": "THANG4-PB3",
+          "label": "PB3",
+          "priceKey": "PB_CENTER",
+          "shape": "zone",
+          "className": "thang4-pb-center",
+          "x": 292,
+          "y": 182,
+          "width": 64,
+          "height": 92
+        },
+        {
+          "id": "THANG4-PB4",
+          "label": "PB4",
+          "priceKey": "PB_CENTER",
+          "shape": "zone",
+          "className": "thang4-pb-center",
+          "x": 364,
+          "y": 182,
+          "width": 64,
+          "height": 92
+        },
+        {
+          "id": "THANG4-PB5",
+          "label": "PB5",
+          "priceKey": "PB_CENTER",
+          "shape": "zone",
+          "className": "thang4-pb-center",
+          "x": 436,
+          "y": 182,
+          "width": 64,
+          "height": 92
+        },
+        {
+          "id": "THANG4-PB6",
+          "label": "PB6",
+          "priceKey": "PB_CENTER",
+          "shape": "zone",
+          "className": "thang4-pb-center",
+          "x": 508,
+          "y": 182,
+          "width": 64,
+          "height": 92
+        },
+        {
+          "id": "THANG4-PB7",
+          "label": "PB7",
+          "priceKey": "PB_SIDE",
+          "shape": "zone",
+          "className": "thang4-pb-side",
+          "x": 588,
+          "y": 182,
+          "width": 48,
+          "height": 92
+        },
+        {
+          "id": "THANG4-PB8",
+          "label": "PB8",
+          "priceKey": "PB_SIDE",
+          "shape": "zone",
+          "className": "thang4-pb-side",
+          "x": 644,
+          "y": 182,
+          "width": 48,
+          "height": 92
+        },
+        {
+          "id": "THANG4-PC1",
+          "label": "PC1",
+          "priceKey": "PC_SIDE",
+          "shape": "zone",
+          "className": "thang4-pc-side",
+          "x": 172,
+          "y": 292,
+          "width": 48,
+          "height": 110
+        },
+        {
+          "id": "THANG4-PC2",
+          "label": "PC2",
+          "priceKey": "PC_SIDE",
+          "shape": "zone",
+          "className": "thang4-pc-side",
+          "x": 228,
+          "y": 292,
+          "width": 48,
+          "height": 110
+        },
+        {
+          "id": "THANG4-GA-CENTER",
+          "label": "GA CENTER",
+          "priceKey": "GACENTER",
+          "shape": "zone",
+          "className": "thang4-ga-center",
+          "x": 292,
+          "y": 292,
+          "width": 280,
+          "height": 110
+        },
+        {
+          "id": "THANG4-PC7",
+          "label": "PC7",
+          "priceKey": "PC_SIDE",
+          "shape": "zone",
+          "className": "thang4-pc-side",
+          "x": 588,
+          "y": 292,
+          "width": 48,
+          "height": 110
+        },
+        {
+          "id": "THANG4-PC8",
+          "label": "PC8",
+          "priceKey": "PC_SIDE",
+          "shape": "zone",
+          "className": "thang4-pc-side",
+          "x": 644,
+          "y": 292,
+          "width": 48,
+          "height": 110
+        },
+        {
+          "id": "THANG4-CAT5A",
+          "label": "CAT 5",
+          "priceKey": "CAT5",
+          "shape": "zone",
+          "className": "thang4-cat5",
+          "x": 116,
+          "y": 432,
+          "width": 72,
+          "height": 176,
+          "rotate": -12,
+          "borderRadius": "999px 999px 18px 18px / 140px 140px 18px 18px"
+        },
+        {
+          "id": "THANG4-CAT4A",
+          "label": "CAT 4",
+          "priceKey": "CAT4",
+          "shape": "zone",
+          "className": "thang4-cat4",
+          "x": 252,
+          "y": 470,
+          "width": 72,
+          "height": 138,
+          "borderRadius": "999px 999px 16px 16px / 110px 110px 16px 16px"
+        },
+        {
+          "id": "THANG4-CAT4B",
+          "label": "CAT 4",
+          "priceKey": "CAT4",
+          "shape": "zone",
+          "className": "thang4-cat4",
+          "x": 540,
+          "y": 470,
+          "width": 72,
+          "height": 138,
+          "borderRadius": "999px 999px 16px 16px / 110px 110px 16px 16px"
+        },
+        {
+          "id": "THANG4-CAT5B",
+          "label": "CAT 5",
+          "priceKey": "CAT5",
+          "shape": "zone",
+          "className": "thang4-cat5",
+          "x": 676,
+          "y": 432,
+          "width": 72,
+          "height": 176,
+          "rotate": 12,
+          "borderRadius": "999px 999px 18px 18px / 140px 140px 18px 18px"
+        }
+      ]
+    },
+    {
+      "id": "slay-overview-map",
+      "type": "custom-zones",
+      "canvas": {
+        "width": 1000,
+        "height": 700
+      },
+      "stageLabel": "STAGE",
+      "walkway": {
+        "width": 64,
+        "height": 132
+      },
+      "sections": [
+        {
+          "id": "SLAY-TECH-A",
+          "label": "TECHNICAL",
+          "shape": "zone",
+          "className": "slay-tech",
+          "x": 60,
+          "y": 120,
+          "width": 120,
+          "height": 70,
+          "selectable": false
+        },
+        {
+          "id": "SLAY-FANZONE-A",
+          "label": "FANZONE A",
+          "priceKey": "FANZONE",
+          "shape": "zone",
+          "className": "slay-fanzone",
+          "x": 60,
+          "y": 204,
+          "width": 120,
+          "height": 144
+        },
+        {
+          "id": "SLAY-SVIP-A",
+          "label": "SVIP A",
+          "priceKey": "SVIP",
+          "shape": "zone",
+          "className": "slay-svip",
+          "x": 248,
+          "y": 120,
+          "width": 120,
+          "height": 144
+        },
+        {
+          "id": "SLAY-VIP-A",
+          "label": "VIP A",
+          "priceKey": "VIP",
+          "shape": "zone",
+          "className": "slay-vip",
+          "x": 376,
+          "y": 120,
+          "width": 120,
+          "height": 144
+        },
+        {
+          "id": "SLAY-VIP-B",
+          "label": "VIP B",
+          "priceKey": "VIP",
+          "shape": "zone",
+          "className": "slay-vip",
+          "x": 504,
+          "y": 120,
+          "width": 120,
+          "height": 144
+        },
+        {
+          "id": "SLAY-SVIP-B",
+          "label": "SVIP B",
+          "priceKey": "SVIP",
+          "shape": "zone",
+          "className": "slay-svip",
+          "x": 632,
+          "y": 120,
+          "width": 120,
+          "height": 144
+        },
+        {
+          "id": "SLAY-TECH-B",
+          "label": "TECHNICAL",
+          "shape": "zone",
+          "className": "slay-tech",
+          "x": 820,
+          "y": 120,
+          "width": 120,
+          "height": 70,
+          "selectable": false
+        },
+        {
+          "id": "SLAY-FANZONE-B",
+          "label": "FANZONE B",
+          "priceKey": "FANZONE",
+          "shape": "zone",
+          "className": "slay-fanzone",
+          "x": 820,
+          "y": 204,
+          "width": 120,
+          "height": 144
+        },
+        {
+          "id": "SLAY-GA1A",
+          "label": "GA 1A",
+          "priceKey": "GA1",
+          "shape": "zone",
+          "className": "slay-ga1",
+          "x": 60,
+          "y": 372,
+          "width": 146,
+          "height": 110
+        },
+        {
+          "id": "SLAY-GA2A",
+          "label": "GA 2A",
+          "priceKey": "GA2",
+          "shape": "zone",
+          "className": "slay-ga2",
+          "x": 214,
+          "y": 372,
+          "width": 146,
+          "height": 110
+        },
+        {
+          "id": "SLAY-GA3A",
+          "label": "GA 3A",
+          "priceKey": "GA3",
+          "shape": "zone",
+          "className": "slay-ga3",
+          "x": 368,
+          "y": 372,
+          "width": 146,
+          "height": 110
+        },
+        {
+          "id": "SLAY-GA3B",
+          "label": "GA 3B",
+          "priceKey": "GA3",
+          "shape": "zone",
+          "className": "slay-ga3",
+          "x": 522,
+          "y": 372,
+          "width": 146,
+          "height": 110
+        },
+        {
+          "id": "SLAY-GA2B",
+          "label": "GA 2B",
+          "priceKey": "GA2",
+          "shape": "zone",
+          "className": "slay-ga2",
+          "x": 676,
+          "y": 372,
+          "width": 146,
+          "height": 110
+        },
+        {
+          "id": "SLAY-GA1B",
+          "label": "GA 1B",
+          "priceKey": "GA1",
+          "shape": "zone",
+          "className": "slay-ga1",
+          "x": 830,
+          "y": 372,
+          "width": 110,
+          "height": 110
+        },
+        {
+          "id": "SLAY-CAT1A",
+          "label": "CAT 1A",
+          "priceKey": "CAT1",
+          "shape": "zone",
+          "className": "slay-cat1",
+          "x": 60,
+          "y": 510,
+          "width": 146,
+          "height": 82
+        },
+        {
+          "id": "SLAY-CAT2A",
+          "label": "CAT 2A",
+          "priceKey": "CAT2",
+          "shape": "zone",
+          "className": "slay-cat2",
+          "x": 214,
+          "y": 510,
+          "width": 146,
+          "height": 82
+        },
+        {
+          "id": "SLAY-CONTROL",
+          "label": "CONTROL BOOTH",
+          "shape": "zone",
+          "className": "slay-control",
+          "x": 368,
+          "y": 510,
+          "width": 264,
+          "height": 82,
+          "selectable": false
+        },
+        {
+          "id": "SLAY-CAT2B",
+          "label": "CAT 2B",
+          "priceKey": "CAT2",
+          "shape": "zone",
+          "className": "slay-cat2",
+          "x": 640,
+          "y": 510,
+          "width": 146,
+          "height": 82
+        },
+        {
+          "id": "SLAY-CAT1B",
+          "label": "CAT 1B",
+          "priceKey": "CAT1",
+          "shape": "zone",
+          "className": "slay-cat1",
+          "x": 794,
+          "y": 510,
+          "width": 146,
+          "height": 82
+        },
+        {
+          "id": "SLAY-SKY1",
+          "label": "SKY LOUNGE 1",
+          "priceKey": "SKY1",
+          "shape": "zone",
+          "className": "slay-sky1",
+          "x": 214,
+          "y": 616,
+          "width": 300,
+          "height": 56
+        },
+        {
+          "id": "SLAY-SKY2",
+          "label": "SKY LOUNGE 2",
+          "priceKey": "SKY2",
+          "shape": "zone",
+          "className": "slay-sky2",
+          "x": 522,
+          "y": 616,
+          "width": 300,
+          "height": 56
+        }
+      ]
+    },
+    {
+      "id": "sky-concert-map",
+      "type": "custom-zones",
+      "stageLabel": "STAGE",
+      "walkway": {
+        "width": 60,
+        "height": 300
+      },
+      "sections": [
+        {
+          "id": "CAT1A",
+          "label": "CAT 1A",
+          "priceKey": "RED",
+          "shape": "zone",
+          "className": "cat1a",
+          "x": 120,
+          "y": 110,
+          "width": 90,
+          "height": 80
+        },
+        {
+          "id": "CAT2A",
+          "label": "CAT 2A",
+          "priceKey": "YELLOW",
+          "shape": "zone",
+          "className": "cat2a",
+          "x": 120,
+          "y": 200,
+          "width": 90,
+          "height": 80
+        },
+        {
+          "id": "GA3A",
+          "label": "GA 3A",
+          "priceKey": "GREEN",
+          "shape": "zone",
+          "className": "ga3a",
+          "x": 220,
+          "y": 110,
+          "width": 90,
+          "height": 80
+        },
+        {
+          "id": "GA2A",
+          "label": "GA 2A",
+          "priceKey": "GREEN",
+          "shape": "zone",
+          "className": "ga2a",
+          "x": 220,
+          "y": 200,
+          "width": 90,
+          "height": 80
+        },
+        {
+          "id": "GA1A",
+          "label": "GA 1A",
+          "priceKey": "RED",
+          "shape": "zone",
+          "className": "ga1a",
+          "x": 220,
+          "y": 290,
+          "width": 90,
+          "height": 80
+        },
+        {
+          "id": "FANZONEA",
+          "label": "FANZONE A",
+          "priceKey": "RED",
+          "shape": "zone",
+          "className": "fanzone-b tall",
+          "x": 370,
+          "y": 110,
+          "width": 90,
+          "height": 260
+        },
+        {
+          "id": "FANZONEB",
+          "label": "FANZONE B",
+          "priceKey": "RED",
+          "shape": "zone",
+          "className": "fanzone-b tall",
+          "x": 540,
+          "y": 110,
+          "width": 90,
+          "height": 260
+        },
+        {
+          "id": "GA1B",
+          "label": "GA 1B",
+          "priceKey": "RED",
+          "shape": "zone",
+          "className": "ga1b",
+          "x": 690,
+          "y": 110,
+          "width": 90,
+          "height": 80
+        },
+        {
+          "id": "GA2B",
+          "label": "GA 2B",
+          "priceKey": "GREEN",
+          "shape": "zone",
+          "className": "ga2b",
+          "x": 690,
+          "y": 200,
+          "width": 90,
+          "height": 80
+        },
+        {
+          "id": "GA3B",
+          "label": "GA 3B",
+          "priceKey": "GREEN",
+          "shape": "zone",
+          "className": "ga3b",
+          "x": 690,
+          "y": 290,
+          "width": 90,
+          "height": 80
+        },
+        {
+          "id": "CAT1B",
+          "label": "CAT 1B",
+          "priceKey": "RED",
+          "shape": "zone",
+          "className": "cat1b",
+          "x": 790,
+          "y": 110,
+          "width": 90,
+          "height": 80
+        },
+        {
+          "id": "CAT2B",
+          "label": "CAT 2B",
+          "priceKey": "YELLOW",
+          "shape": "zone",
+          "className": "cat2b",
+          "x": 790,
+          "y": 200,
+          "width": 90,
+          "height": 80
+        },
+        {
+          "id": "VIPA",
+          "label": "VIP A",
+          "priceKey": "RED",
+          "shape": "vip",
+          "className": "vip-pink",
+          "x": 390,
+          "y": 440,
+          "width": 100,
+          "height": 50
+        },
+        {
+          "id": "VIPB",
+          "label": "VIP B",
+          "priceKey": "YELLOW",
+          "shape": "vip",
+          "className": "vip-purple",
+          "x": 500,
+          "y": 440,
+          "width": 100,
+          "height": 50
+        },
+        {
+          "id": "SKYLOUNGE",
+          "label": "SKY LOUNGE",
+          "priceKey": "GREEN",
+          "shape": "sky",
+          "className": "sky-lounge",
+          "x": 350,
+          "y": 510,
+          "width": 300,
+          "height": 50
+        }
+      ]
+    },
+    {
+      "id": "stadium-a",
+      "stageLabel": "STAGE",
+      "zones": [
+        { "id": "RED", "name": "Khu RED", "color": "#ef4444", "rows": 5, "cols": 8 },
+        { "id": "YELLOW", "name": "Khu YELLOW", "color": "#f59e0b", "rows": 4, "cols": 8 },
+        { "id": "GREEN", "name": "Khu GREEN", "color": "#22c55e", "rows": 4, "cols": 7 }
+      ]
+    },
+    {
+      "id": "arena-b",
+      "stageLabel": "ARENA",
+      "zones": [
+        { "id": "VVIP", "name": "Khu VVIP", "color": "#dc2626", "rows": 3, "cols": 6 },
+        { "id": "VIP", "name": "Khu VIP", "color": "#f97316", "rows": 4, "cols": 7 },
+        { "id": "PREMIUM", "name": "Khu PREMIUM", "color": "#eab308", "rows": 5, "cols": 8 },
+        { "id": "STANDARD", "name": "Khu STANDARD", "color": "#3b82f6", "rows": 5, "cols": 9 },
+        { "id": "FLOOR", "name": "Khu FLOOR", "color": "#8b5cf6", "rows": 4, "cols": 8 }
+      ]
+    },
+    {
+      "id": "theatre-c",
+      "stageLabel": "SÂN KHẤU",
+      "zones": [
+        { "id": "ORCHESTRA", "name": "Tầng trệt", "color": "#ef4444", "rows": 5, "cols": 10 },
+        { "id": "BALCONY", "name": "Ban công", "color": "#f59e0b", "rows": 3, "cols": 8 },
+        { "id": "STANDARD", "name": "Tiêu chuẩn", "color": "#22c55e", "rows": 4, "cols": 8 }
+      ]
+    },
+    {
+      "id": "aquatic-d",
+      "stageLabel": "HỒ THI ĐẤU",
+      "zones": [
+        { "id": "A1", "name": "Khán đài A1", "color": "#0ea5e9", "rows": 4, "cols": 9 },
+        { "id": "A2", "name": "Khán đài A2", "color": "#14b8a6", "rows": 4, "cols": 8 },
+        { "id": "A3", "name": "Khán đài A3", "color": "#64748b", "rows": 3, "cols": 8 }
+      ]
+    },
+    {
+      "id": "hall-e",
+      "stageLabel": "MAIN SHOW",
+      "zones": [
+        { "id": "FRONT", "name": "Khu FRONT", "color": "#ec4899", "rows": 3, "cols": 8 },
+        { "id": "CENTER", "name": "Khu CENTER", "color": "#8b5cf6", "rows": 4, "cols": 8 },
+        { "id": "STANDARD", "name": "Khu STANDARD", "color": "#06b6d4", "rows": 5, "cols": 8 }
+      ]
+    },
+    {
+      "id": "festival-f",
+      "stageLabel": "CỔNG VÀO",
+      "zones": [
+        { "id": "ENTRY", "name": "Vé vào cổng", "color": "#22c55e", "rows": 2, "cols": 6 }
+      ]
+    }
+  ]
+}

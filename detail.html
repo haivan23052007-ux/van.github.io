@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chi tiết sự kiện</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0f14;
+  color: white;
+}
+
+.top {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.left {
+  width: 70%;
+}
+
+.right {
+  width: 30%;
+}
+
+.banner img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.title-box,
+.content,
+.calendar,
+.schedule-list {
+  margin-top: 10px;
+  background: #1a1f26;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.date {
+  color: #22c55e;
+}
+
+.location {
+  color: #9ca3af;
+}
+
+.btn {
+  margin-top: 12px;
+  padding: 12px;
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+  background: #22c55e;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #16a34a;
+}
+
+.schedule-item {
+  border: 1px solid #2a3240;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.schedule-item.active {
+  border-color: #22c55e;
+  background: #111827;
+}
+
+#calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.day {
+  padding: 8px;
+  text-align: center;
+  background: #333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.day.has-event {
+  background: #ff4757;
+}
+
+.day.active {
+  background: #22c55e;
+}
+
+.model3d {
+  margin: 20px;
+  cursor: pointer;
+  background: linear-gradient(180deg, #111827 0%, #0b1220 100%);
+  border: 1px solid #334155;
+  border-radius: 18px;
+  padding: 18px;
+  max-width: 640px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+}
+
+.preview-title {
+  margin: 0 0 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f8fafc;
+}
+
+.map-preview {
+  width: 100%;
+  height: 360px;
+  background:
+    radial-gradient(circle at top, rgba(59, 130, 246, 0.14), transparent 30%),
+    linear-gradient(180deg, #030712 0%, #0f172a 100%);
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #1e293b;
+}
+
+.preview-stage {
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 180px;
+  height: 40px;
+  border-radius: 999px;
+  background: #222;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  box-shadow: 0 0 24px rgba(255, 255, 255, 0.08);
+}
+
+.preview-walkway {
+  position: absolute;
+  top: 68px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1f2937;
+  border-radius: 6px;
+  opacity: 0.95;
+}
+
+.preview-block {
+  position: absolute;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  padding: 4px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+.calendar {
+  margin-top: 10px;
+  background: #1a1f26;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+/* HEADER */
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.calendar-header button {
+  background: #111827;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.calendar-header button:hover {
+  background: #22c55e;
+}
+
+#monthYear {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* WEEKDAYS */
+.weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  margin-bottom: 6px;
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+/* CALENDAR GRID */
+#calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+}
+
+/* DAY */
+.day {
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #111827;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+/* HOVER */
+.day:hover {
+  background: #1f2937;
+  transform: translateY(-2px);
+}
+
+/* NGÀY CÓ EVENT */
+.day.has-event {
+  background: #ef4444;
+  font-weight: bold;
+}
+
+/* NGÀY ĐANG CHỌN */
+.day.active {
+  background: #22c55e;
+  color: white;
+}
+
+/* EMPTY CELL */
+#calendar div:not(.day) {
+  aspect-ratio: 1 / 1;
+}
+.cat1a {
+  background: #2563eb;
+}
+
+.cat2a {
+  background: #f97316;
+}
+
+.ga3a {
+  background: #16a34a;
+}
+
+.ga2a {
+  background: #84cc16;
+}
+
+.ga1a {
+  background: #0ea5e9;
+}
+
+.fanzone-a {
+  background: #06b6d4;
+}
+
+.fanzone-b {
+  background: #8b5cf6;
+}
+
+.ga1b {
+  background: #3b82f6;
+}
+
+.ga2b {
+  background: #10b981;
+}
+
+.ga3b {
+  background: #65a30d;
+}
+
+.cat1b {
+  background: #4f46e5;
+}
+
+.cat2b {
+  background: #fb7185;
+}
+
+.vip-pink {
+  background: #f472b6;
+}
+
+.vip-purple {
+  background: #a78bfa;
+}
+
+.sky-lounge {
+  background: #f97316;
+}
+
+.slay-tech {
+  background: rgba(71, 85, 105, 0.7);
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.slay-fanzone {
+  background: #00bfff;
+}
+
+.slay-svip {
+  background: #7c3aed;
+}
+
+.slay-vip {
+  background: #ec4899;
+}
+
+.slay-ga1 {
+  background: #22d3ee;
+  color: #082f49;
+}
+
+.slay-ga2 {
+  background: #90ee90;
+  color: #14532d;
+}
+
+.slay-ga3 {
+  background: #228b22;
+}
+
+.slay-cat1 {
+  background: #002147;
+}
+
+.slay-cat2 {
+  background: #f97316;
+}
+
+.slay-control {
+  background: rgba(30, 41, 59, 0.9);
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.slay-sky1 {
+  background: #7dd3fc;
+  color: #082f49;
+}
+
+.slay-sky2 {
+  background: #eab308;
+  color: #fff;
+}
+
+.thang4-pa-side {
+  background: #ec4899;
+}
+
+.thang4-pa-center {
+  background: #db2777;
+}
+
+.thang4-pb-side {
+  background: #ca8a04;
+}
+
+.thang4-pb-center {
+  background: #a16207;
+}
+
+.thang4-pc-side {
+  background: #059669;
+}
+
+.thang4-ga-center {
+  background: #0891b2;
+}
+
+.thang4-cat4 {
+  background: #0f766e;
+}
+
+.thang4-cat5 {
+  background: #6d28d9;
+}
+
+.preview-grid-wrap {
+  position: absolute;
+  inset: 72px 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.preview-grid-zone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.preview-grid-zone-label {
+  font-size: 13px;
+  font-weight: bold;
+  color: #e2e8f0;
+}
+
+.preview-grid-box {
+  border-radius: 10px;
+  opacity: 0.95;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.3);
+}
+
+.preview-note {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #cbd5e1;
+}
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div class="left">
+    <div class="banner">
+      <img id="img" alt="">
+    </div>
+
+    <div class="title-box">
+      <h1 id="title"></h1>
+      <p class="date" id="date"></p>
+      <p class="location" id="location"></p>
+      <p><b>Giá:</b> <span id="price"></span></p>
+      <button class="btn" onclick="goSeatmap()">Mua vé</button>
+    </div>
+
+    <div class="content">
+      <p id="content"></p>
+    </div>
+  </div>
+
+  <div class="right">
+    <div class="calendar">
+     <div class="calendar-header">
+        <button id="prevMonth">&lt;</button>
+        <div id="monthYear"></div>
+        <button id="nextMonth">&gt;</button>
+      </div>
+      <div class="weekdays">
+        <div>T2</div>
+        <div>T3</div>
+        <div>T4</div>
+        <div>T5</div>
+        <div>T6</div>
+        <div>T7</div>
+        <div>CN</div>
+      </div>
+      <div id="calendar"></div>
+    </div>
+
+    <div class="schedule-list">
+      <h3>Lịch diễn</h3>
+      <div id="scheduleList"></div>
+    </div>
+  </div>
+</div>
+
+<div class="model3d" onclick="handlePreviewClick()">
+  <p class="preview-title">Sơ đồ chỗ ngồi</p>
+  <div class="map-preview" id="mapPreview"></div>
+  <p class="preview-note">Bấm để vào thanh toán nếu đã giữ ghế, hoặc mở sơ đồ để chọn ghế.</p>
+</div>
+
+<script src="data-store.js"></script>
+<script>
+let database;
+let eventData;
+let schedules = [];
+let selectedSchedule = null;
+let currentDate = new Date();
+let selectedSeatMap = null;
+
+function syncSelection(schedule) {
+  selectedSchedule = schedule;
+  localStorage.setItem("selectedScheduleId", schedule.id);
+
+  document.getElementById("date").innerText =
+    `${EventStore.formatDate(schedule.date)} | ${schedule.time}`;
+  document.getElementById("location").innerText = schedule.location;
+  document.getElementById("price").innerText =
+    EventStore.formatCurrency(EventStore.getLowestPrice(schedule));
+
+  document.querySelectorAll(".schedule-item").forEach((item) => {
+    item.classList.toggle("active", item.dataset.id === schedule.id);
+  });
+
+  document.querySelectorAll(".day").forEach((item) => {
+    item.classList.toggle("active", item.dataset.scheduleId === schedule.id);
+  });
+}
+
+function renderSchedules() {
+  const container = document.getElementById("scheduleList");
+  container.innerHTML = "";
+
+  schedules.forEach((schedule) => {
+    const item = document.createElement("div");
+    item.className = "schedule-item";
+    item.dataset.id = schedule.id;
+    item.innerHTML = `
+      <div><b>${EventStore.formatDate(schedule.date)}</b></div>
+      <div>${schedule.time}</div>
+      <div>${schedule.location}</div>
+      <div>${EventStore.formatCurrency(EventStore.getLowestPrice(schedule))}</div>
+    `;
+
+    item.onclick = () => syncSelection(schedule);
+    container.appendChild(item);
+  });
+}
+
+function renderCalendar() {
+  const calendar = document.getElementById("calendar");
+  calendar.innerHTML = "";
+
+  const year = currentDate.getFullYear();
+  const month = currentDate.getMonth();
+  document.getElementById("monthYear").innerText = `Tháng ${month + 1}/${year}`;
+
+ let firstDay = new Date(year, month, 1).getDay();
+firstDay = (firstDay === 0) ? 6 : firstDay - 1;
+  const totalDays = new Date(year, month + 1, 0).getDate();
+
+  for (let i = 0; i < firstDay; i++) {
+    const spacer = document.createElement("div");
+    calendar.appendChild(spacer);
+  }
+
+  for (let day = 1; day <= totalDays; day++) {
+    const cell = document.createElement("div");
+    cell.className = "day";
+    cell.innerText = day;
+
+    const schedule = schedules.find((item) => {
+      const [yearText, monthText, dayText] = item.date.split("-");
+      return Number(dayText) === day && Number(monthText) - 1 === month && Number(yearText) === year;
+    });
+
+    if (schedule) {
+      cell.classList.add("has-event");
+      cell.dataset.scheduleId = schedule.id;
+      cell.onclick = () => syncSelection(schedule);
+    }
+
+    calendar.appendChild(cell);
+  }
+
+  if (selectedSchedule) {
+    syncSelection(selectedSchedule);
+  }
+}
+
+function goSeatmap() {
+  if (!selectedSchedule) {
+    alert("Sự kiện này chưa có lịch diễn.");
+    return;
+  }
+
+  window.location.href = "seatmap.html";
+}
+
+function handlePreviewClick() {
+  if (!selectedSchedule) {
+    alert("Sự kiện này chưa có lịch diễn.");
+    return;
+  }
+
+  window.location.href = "seatmap.html";
+}
+
+function renderMapPreview(seatMap) {
+  const preview = document.getElementById("mapPreview");
+  preview.innerHTML = "";
+
+  if (!seatMap) {
+    preview.innerHTML = '<div class="preview-stage">SƠ ĐỒ</div>';
+    return;
+  }
+
+  if (seatMap.type === "custom-zones") {
+    const canvasWidth = seatMap.canvas?.width || 1000;
+    const canvasHeight = seatMap.canvas?.height || 600;
+    const scale = Math.min(0.52, 320 / canvasWidth, 250 / canvasHeight);
+
+    const stage = document.createElement("div");
+    stage.className = "preview-stage";
+    stage.innerText = seatMap.stageLabel || "STAGE";
+    preview.appendChild(stage);
+
+    if (seatMap.walkway) {
+      const walkway = document.createElement("div");
+      walkway.className = "preview-walkway";
+      walkway.style.width = `${Math.max(10, seatMap.walkway.width * scale)}px`;
+      walkway.style.height = `${Math.max(24, seatMap.walkway.height * scale)}px`;
+      preview.appendChild(walkway);
+    }
+
+    seatMap.sections.forEach((section) => {
+      const block = document.createElement("div");
+      block.className = `preview-block ${section.className || ""}`;
+      block.style.left = `${section.x * scale}px`;
+      block.style.top = `${section.y * scale}px`;
+      block.style.width = `${Math.max(44, section.width * scale)}px`;
+      block.style.height = `${Math.max(24, section.height * scale)}px`;
+      block.style.borderRadius = section.borderRadius || "";
+      block.style.transform = `rotate(${section.rotate || 0}deg)`;
+      block.innerText = section.label;
+      preview.appendChild(block);
+    });
+
+    return;
+  }
+
+  const stage = document.createElement("div");
+  stage.className = "preview-stage";
+  stage.innerText = seatMap.stageLabel || "STAGE";
+  preview.appendChild(stage);
+
+  const wrap = document.createElement("div");
+  wrap.className = "preview-grid-wrap";
+
+  (seatMap.zones || []).slice(0, 5).forEach((zone) => {
+    const zoneWrap = document.createElement("div");
+    zoneWrap.className = "preview-grid-zone";
+
+    const label = document.createElement("div");
+    label.className = "preview-grid-zone-label";
+    label.innerText = zone.name;
+
+    const box = document.createElement("div");
+    box.className = "preview-grid-box";
+    box.style.background = zone.color;
+    box.style.width = `${Math.max(60, zone.cols * 10)}px`;
+    box.style.height = `${Math.max(36, zone.rows * 14)}px`;
+
+    zoneWrap.appendChild(label);
+    zoneWrap.appendChild(box);
+    wrap.appendChild(zoneWrap);
+  });
+
+  preview.appendChild(wrap);
+}
+
+async function init() {
+  const eventId = localStorage.getItem("selectedEventId");
+  if (!eventId) {
+    window.location.href = "index.html";
+    return;
+  }
+
+  database = await EventStore.loadDatabase();
+  eventData = EventStore.getEventById(database, eventId);
+  schedules = EventStore.getSchedulesByEventId(database, eventId);
+
+  if (!eventData) {
+    alert("Không tìm thấy sự kiện.");
+    window.location.href = "index.html";
+    return;
+  }
+
+  document.getElementById("title").innerText = eventData.title;
+  document.getElementById("img").src = eventData.banner;
+  document.getElementById("content").innerText = eventData.content;
+  selectedSeatMap = EventStore.getSeatMapById(database, eventData.seatMapId);
+  renderMapPreview(selectedSeatMap);
+
+  renderSchedules();
+
+  const savedScheduleId = localStorage.getItem("selectedScheduleId");
+  const savedSchedule = EventStore.getScheduleById(database, savedScheduleId);
+  selectedSchedule =
+    (savedSchedule && savedSchedule.eventId === eventData.id ? savedSchedule : null) ||
+    schedules[0] ||
+    null;
+
+  if (selectedSchedule) {
+    const [year, month] = selectedSchedule.date.split("-");
+    currentDate = new Date(Number(year), Number(month) - 1, 1);
+    syncSelection(selectedSchedule);
+  } else {
+    document.getElementById("date").innerText = "Chưa có lịch diễn";
+    document.getElementById("location").innerText = eventData.venue;
+    document.getElementById("price").innerText = "Đang cập nhật";
+  }
+
+  renderCalendar();
+}
+
+init().catch((error) => {
+  document.body.innerHTML = `<p>Không tải được dữ liệu: ${error.message}</p>`;
+});
+document.getElementById("prevMonth").onclick = () => {
+  currentDate.setMonth(currentDate.getMonth() - 1);
+  renderCalendar();
+};
+
+document.getElementById("nextMonth").onclick = () => {
+  currentDate.setMonth(currentDate.getMonth() + 1);
+  renderCalendar();
+};
+</script>
+</body>
+</html>
